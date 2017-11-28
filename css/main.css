@@ -24,17 +24,46 @@ header {
 }
 
 nav {
-    background-color: #b5bec5;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    color: #ffffff;
+    color: #2e2e2e;
+    border-bottom: solid 10px #ffffff;
+    border-top: solid 10px #ffffff;
 }
 
 ul {
+    font-family: 'Gotika Black';
     list-style-type: none;
     text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+}
+
+li {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #bb5d5f;
+    color: #ffffff;
 }
 
 #logo {
     width: 100%;
+}
+
+#hairflip {
+    width: 100%;
+}
+
+.socialmedia {
+    width: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#social {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#banner {
+    background-image: url('../img/hairflip.jpg');
 }
