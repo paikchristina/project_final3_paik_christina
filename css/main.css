@@ -29,7 +29,7 @@ nav {
     border-top: solid 10px #ffffff;
 }
 
-ul {
+#navmenu {
     font-family: 'Gotika Black';
     list-style-type: none;
     text-align: center;
@@ -37,11 +37,20 @@ ul {
     letter-spacing: 3px;
 }
 
-li {
+a {
+    text-decoration: none;
+}
+
+.menu {
+    text-shadow: 3px 2px rgba(0, 0, 0, .4);
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #bb5d5f;
     color: #ffffff;
+}
+
+.menu:hover {
+    background-color: #8b3e40;
 }
 
 #logo {
@@ -64,6 +73,32 @@ li {
     padding-bottom: 10%;
 }
 
+main {
+    width: 100%;
+}
+
 #banner {
     background-image: url('../img/hairflip.jpg');
+}
+
+.categories {
+    width: 100%;
+}
+
+.category {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+h2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.59);
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    margin-top: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    letter-spacing: 3px;
 }
