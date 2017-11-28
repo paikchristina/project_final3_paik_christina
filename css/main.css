@@ -105,6 +105,7 @@ footer {
     color: #ffffff;
     font-family: 'Gotika Demo';
     padding-top: 10%;
+    margin-top: 15%;
 }
 
 .footerli {
@@ -129,6 +130,12 @@ h3 {
     padding-bottom: 5%;
 }
 
+.carousel {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 /* HOVER EFFECT */
 .hvr-grow {
   display: inline-block;
@@ -148,4 +155,12 @@ h3 {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.promo {
+    margin-top: 15%;
+}
+
+#wrapper, #banner {
+    margin-top: 15%;
 }
