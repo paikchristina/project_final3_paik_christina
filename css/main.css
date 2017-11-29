@@ -164,3 +164,207 @@ h3 {
 #wrapper, #banner {
     margin-top: 15%;
 }
+
+/* MEDIA QUERY 450PX*/
+@media (min-width: 450px) {
+    footer {
+        padding-left: 15%;
+    }
+
+    h2 {
+        margin-top: 25%;
+    }
+}
+
+/* MEDIA QUERY 550PX*/
+@media (min-width: 550px) {
+    #logo {
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+
+    #social {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .hvr-grow {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .carousel {
+        height: 450px;
+    }
+
+    h2 {
+        margin-top: 20%;
+    }
+
+    #connect {
+        width: 70%;
+    }
+
+    #facebook {
+        padding-left: 0;
+    }
+
+    footer {
+        padding-left: 25%;
+    }
+}
+
+/* MEDIA QUERY 750PX*/
+@media (min-width: 750px) {
+    #logo {
+        width: 50%;
+    }
+
+    #navmenu {
+        font-size: 1.8rem;
+    }
+
+    .carousel {
+        height: 650px;
+    }
+
+    #banner {
+        margin-top: 1%;
+    }
+
+    #wrapper {
+        margin-top: 1%;
+    }
+
+    footer {
+        margin-top: 1%;
+    }
+
+    .category {
+        margin-top: 1%;
+        height: 400px;
+    }
+
+    .footerli {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+/* MEDIA QUERY 900PX*/
+@media (min-width: 900px) {
+    #logo {
+        width: 40%;
+    }
+
+    .menu {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .hvr-grow {
+        width: 13%;
+    }
+
+    #social {
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    #banner {
+        width: 70%;
+        margin: auto;
+        margin-top: 4%;
+    }
+
+    h2 {
+        margin-top: 16%;
+    }
+
+    footer {
+        padding-left: 30%;
+    }
+}
+
+/* MEDIA QUERY 900PX*/
+@media (min-width: 1000px) {
+    header {
+        display: flex;
+    }
+
+    #navmenu {
+        display: flex;
+        padding-top: 14%;
+        justify-content: space-between;
+        margin-left: 5%;
+        font-family: 'Gotika Demo';
+    }
+
+    #logo {
+        width: 100%;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    nav {
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .menu {
+        color: #2e2e2e;
+        background-color: #eaeaea;
+        text-shadow: none;
+        flex: 1;
+        padding-left: 10%;
+        font-size: 1.5rem;
+        padding-right: 10%;
+        letter-spacing: 5px;
+    }
+
+    .menu:hover {
+        color: #ffffff;
+    }
+
+    footer {
+        display: flex;
+        padding-left: 2%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+    }
+
+    #contact, #connect {
+        padding-top: 0
+    }
+
+    #hours {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel {
+        height: 600px;
+    }
+
+    h2 {
+        margin-top: 14%;
+    }
+
+    .hvr-grow {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #banner {
+        width: 45%;
+    }
+}
