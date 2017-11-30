@@ -816,3 +816,32 @@ figure {
         width: 40%;
     }
 }
+
+/* MEDIA QUERY 1250PX*/
+@media (min-width: 1250px) {
+    #banner3 {
+        margin-top: 5%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    #products, #products2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .singleproducthover {
+        width: 32%;
+        color: inherit;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .singleproduct {
+        width: 90%;
+        padding-top: 30%;
+    }
+
+    #products {
+        margin-top: 2%;
+    }
+}
