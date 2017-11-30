@@ -790,3 +790,29 @@ figure {
 .single {
     margin-bottom: 15%;
 }
+
+/* MEDIA QUERY 550PX*/
+@media (min-width: 550px) {
+
+    .singleproduct {
+        width: 80%;
+        margin: auto;
+        padding-top: 20%;
+    }
+
+    .addbutton {
+        margin-top: 5%;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+    }
+}
+
+/* MEDIA QUERY 900PX*/
+@media (min-width: 900px) {
+    .singleproduct {
+        width: 40%;
+    }
+}
