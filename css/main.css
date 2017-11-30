@@ -812,6 +812,7 @@ figure {
 
 /* MEDIA QUERY 900PX*/
 @media (min-width: 900px) {
+
     .singleproduct {
         width: 40%;
     }
@@ -819,6 +820,7 @@ figure {
 
 /* MEDIA QUERY 1250PX*/
 @media (min-width: 1250px) {
+
     #banner3 {
         margin-top: 5%;
         height: 400px;
@@ -843,5 +845,17 @@ figure {
 
     #products {
         margin-top: 2%;
+    }
+}
+
+/* MEDIA QUERY 1450PX*/
+@media (min-width: 1450px) {
+
+    #banner3 {
+        height: 300px;
+    }
+
+    .singleproducthover {
+        width: 33%;
     }
 }
