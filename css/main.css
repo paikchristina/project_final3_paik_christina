@@ -859,3 +859,12 @@ figure {
         width: 33%;
     }
 }
+
+/** EVENTS PAGE **/
+.fc .fc-toolbar > * > :first-child {
+    margin-top: -10%;
+}
+
+body .fc {
+    margin-top: 11%;
+}
