@@ -396,3 +396,55 @@ h3 {
         padding-left: 12%;
     }
 }
+
+/* MEDIA QUERY 1250PX*/
+@media (min-width: 1250px) {
+
+    #navmenu {
+        padding-top: 20%;
+        margin-left: 9%;
+    }
+
+    #logo {
+        padding-left: 10%;
+    }
+
+    #social {
+        width: 65%;
+    }
+
+    footer {
+        padding-top: 7%;
+        justify-content: center;
+    }
+
+    #connect {
+        padding-left: 7%;
+        padding-bottom: 7%;
+    }
+
+    #contact {
+        padding-left: 5%;
+    }
+
+    #hours {
+        width: 26%;
+    }
+
+    #facebook {
+        padding-left: 6%;
+    }
+
+    #banner {
+        width: 40%;
+        margin-bottom: 3%;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 75%;
+    }
+
+    .carousel {
+        height: 440px;
+    }
+}
