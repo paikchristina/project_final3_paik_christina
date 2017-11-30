@@ -440,11 +440,69 @@ h3 {
         margin-bottom: 3%;
     }
 
-    .owl-carousel .owl-item img {
+    .carousel {
+        height: 440px;
+    }
+}
+
+/* MEDIA QUERY 1450PX*/
+@media (min-width: 1450px) {
+    #wrapper {
+        display: flex;
+        margin-bottom: 7%;
+        margin-top: 6%;
+    }
+
+    h2 {
+        flex: 1;
+        width: 33.35%;
+        position: absolute;
+        margin-top: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    footer {
+        padding-top: 5%;
+        padding-left: 14%;
+    }
+
+    #connect {
+        padding-bottom: 5%;
+    }
+
+    #facebook {
+        padding-left: 3%;
+    }
+
+    #navmenu {
+        padding-top: 17%;
+        margin-left: 2%;
+    }
+
+    .hvr-grow {
+        width: 11%;
+    }
+
+    #social {
+        width: 45%;
+    }
+
+    #logo {
         width: 75%;
     }
 
+    .menu {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
     .carousel {
-        height: 440px;
+        height: 500px;
+    }
+
+    #flip {
+        width: 100%;
+        position: absolute;
     }
 }
