@@ -685,9 +685,20 @@ h3 {
     #serviceprice {
         padding-right: 30%;
     }
+
+    .price4 {
+        padding-top: 400%;
+    }
 }
 
 /* MEDIA QUERY 1450PX*/
 @media (min-width: 1450px) {
 
+    #serviceprice {
+        padding-right: 30%;
+    }
+
+    #servicename {
+        padding-left: 20%;
+    }
 }
