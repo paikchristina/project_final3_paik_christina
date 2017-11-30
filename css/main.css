@@ -500,9 +500,99 @@ h3 {
     .carousel {
         height: 500px;
     }
+}
 
-    #flip {
-        width: 100%;
-        position: absolute;
+/* MEDIA QUERY 1650PX*/
+@media (min-width: 1650px) {
+    #social {
+        padding-top: 3%;
+        padding-bottom: 5%;
     }
+
+    #logo {
+        width: 55%;
+        padding-left: 7%;
+    }
+
+    .hvr-grow {
+        padding-top: 0;
+    }
+
+    .carousel {
+        height: 700px;
+    }
+
+    #facebook {
+        padding-left: 2%;
+    }
+
+    h3 {
+        padding-bottom: 6%;
+    }
+
+    #navmenu {
+        padding-top: 15%;
+    }
+
+    #social {
+        padding-top: 5%;
+    }
+}
+
+/* MEDIA QUERY 1750PX*/
+@media (min-width: 1750px) {
+    footer {
+        padding-top: 4%;
+    }
+
+    #connect {
+        padding-bottom: 3%;
+    }
+
+    #facebook {
+        padding-left: 1%;
+    }
+
+    .hvr-grow {
+        width: 8%;
+        padding-top: 0;
+    }
+
+    h3 {
+        padding-bottom: 3%;
+    }
+
+    #social {
+        padding-top: 1%;
+        padding-bottom: 2%;
+    }
+
+    #logo {
+        padding-bottom: 3%;
+    }
+
+    h2 {
+        margin-top: 7%;
+    }
+}
+
+/** SERVICES PAGE **/
+
+#wrapper2 {
+    background-image: url('../img/servicepage.jpg');
+    object-fit: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+#servicename, #serviceprice {
+    list-style-type: none;
+}
+
+.italic {
+    font-family: 'Gotika Italic';
 }
