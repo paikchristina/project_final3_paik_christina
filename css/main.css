@@ -702,3 +702,20 @@ h3 {
         padding-left: 20%;
     }
 }
+
+/* MEDIA QUERY 1650PX*/
+@media (min-width: 1650px) {
+
+    #serviceprice {
+        padding-right: 35%;
+    }
+
+    #servicename {
+        padding-left: 20%;
+    }
+
+    #wrapper2 {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+}
