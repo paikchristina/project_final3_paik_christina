@@ -736,3 +736,57 @@ h3 {
         padding-bottom: 0%;
     }
 }
+
+/** PRODUCTS PAGE **/
+#banner3 {
+    width: 100%;
+    display: block;
+    margin-top: 15%;
+}
+
+.singleproduct {
+    width: 100%;
+    display: block;
+}
+
+.singleproducthover {
+    position: absolute;
+    text-align: center;
+    font-family: 'Gotika Black';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    color: #ffffff;
+}
+
+figure {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#products {
+    margin-top: 15%;
+}
+
+.addbutton {
+    padding: 4%;
+    font-family: 'Gotika Demo';
+    letter-spacing: 5px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+}
+
+.addbutton:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .6);
+}
+
+.single {
+    margin-bottom: 15%;
+}
