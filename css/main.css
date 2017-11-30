@@ -669,7 +669,25 @@ h3 {
 
 /* MEDIA QUERY 1000PX*/
 @media (min-width: 1000px) {
+
     .price4 {
         padding-top: 340%;
     }
+}
+
+/* MEDIA QUERY 1250PX*/
+@media (min-width: 1250px) {
+
+    .name {
+        font-size: 1.9rem;
+    }
+
+    #serviceprice {
+        padding-right: 30%;
+    }
+}
+
+/* MEDIA QUERY 1450PX*/
+@media (min-width: 1450px) {
+
 }
