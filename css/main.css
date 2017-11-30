@@ -719,3 +719,20 @@ h3 {
         padding-bottom: 5%;
     }
 }
+
+/* MEDIA QUERY 1750PX*/
+@media (min-width: 1750px) {
+
+    #serviceprice {
+        padding-right: 40%;
+    }
+
+    .price3 {
+        padding-top: 400%;
+    }
+
+    #wrapper2 {
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+}
