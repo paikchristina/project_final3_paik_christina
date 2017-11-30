@@ -654,3 +654,15 @@ h3 {
         font-size: 1.8rem;
     }
 }
+
+/* MEDIA QUERY 900PX*/
+@media (min-width: 900px) {
+
+    .price3 {
+        padding-top: 325%;
+    }
+
+    .price4 {
+        padding-top: 265%;
+    }
+}
