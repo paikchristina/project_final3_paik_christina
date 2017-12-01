@@ -447,6 +447,10 @@ h3 {
     .carousel {
         height: 440px;
     }
+
+    #products {
+        margin-top: 0%;
+    }
 }
 
 /* MEDIA QUERY 1450PX*/
@@ -503,6 +507,10 @@ h3 {
 
     .carousel {
         height: 500px;
+    }
+
+    #products {
+        margin-top: 0;
     }
 }
 
@@ -765,7 +773,7 @@ figure {
     margin: 0 auto;
 }
 
-#products {
+#products3 {
     margin-top: 15%;
 }
 
@@ -827,7 +835,7 @@ figure {
         object-fit: cover;
     }
 
-    #products, #products2 {
+    #products3, #products2 {
         display: flex;
         flex-direction: row;
     }
@@ -843,7 +851,7 @@ figure {
         padding-top: 30%;
     }
 
-    #products {
+    #products3 {
         margin-top: 2%;
     }
 }
@@ -867,4 +875,10 @@ figure {
 
 body .fc {
     margin-top: 11%;
+}
+
+#eventintro {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
 }

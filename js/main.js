@@ -44,3 +44,14 @@ $("#banner2").click(function() {
     // Animation complete
   });
 });
+
+/** CUSTOM JAVASCRIPT **/
+var selectedElement = document.getElementById( 'eventintro' );
+
+var intro = document.createElement('article');
+
+intro.innerHTML = '<h4>Our Events</h4><p>Here is a calendar to view our upcoming events.</p>';
+
+selectedElement.appendChild( intro );
+
+intro.className = 'introduction';
