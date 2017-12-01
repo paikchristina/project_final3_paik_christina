@@ -1,3 +1,4 @@
+/** OWL CAROUSEL **/
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
       items: 1,
@@ -8,7 +9,7 @@ $(document).ready(function(){
 });
 
 
-
+/** EVENT CALENDAR **/
 	$(document).ready(function() {
 
 		$('#calendar').fullCalendar({
@@ -35,4 +36,11 @@ $(document).ready(function(){
     ]
 		});
 
-	});
+});
+
+/** CUSTOM JQUERY EFFECT **/
+$("#banner2").click(function() {
+  $("#banner3").fadeOut("slow", function() {
+    // Animation complete
+  });
+});
